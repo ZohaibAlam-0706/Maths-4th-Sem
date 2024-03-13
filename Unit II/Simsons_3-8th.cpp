@@ -18,7 +18,7 @@ int main(){
     cin>>n;
     
     if(n % 3 != 0){
-        cout<<"The number of subintervals should be even";
+        cout<<"The number of subintervals should be multiple of 3";
         return 0;
     }
     double x[n+1], y[n+1];
