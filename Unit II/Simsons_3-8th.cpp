@@ -17,7 +17,7 @@ int main(){
     cout<<"Enter the number of subintervals,n = ";
     cin>>n;
     
-    if(n % 2 != 0){
+    if(n % 3 != 0){
         cout<<"The number of subintervals should be even";
         return 0;
     }

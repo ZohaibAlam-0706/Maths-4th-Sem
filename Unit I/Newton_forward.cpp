@@ -9,6 +9,7 @@ int main(){
     cin>>n;
     cout<<"Enter data"<<endl;
     for(i = 0; i < n; i++){
+        cout<<"Enter the value of x"<<i+1<<" and the corresponding value of function: ";
         cin>>x[i]>>y[i][0];
     }
 
@@ -17,7 +18,6 @@ int main(){
     h = x[1] - x[0];
     p = (xi - x[0])/h;
     yp = y[0][0];
-    
 
     for(i = 1; i < n; i++){
         for(j = 0; j < n-i; j++){
